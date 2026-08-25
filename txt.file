@@ -5,7 +5,6 @@ Tumne ye command chalayi:
 ```powershell
 git remote -v https://github.com/kushwahadk799-lgtm/infra.git
 ```
-
 `git remote -v` ke baad **URL nahi lagta**. `-v` ka kaam sirf existing remote URL dikhana hai.
 
 ### Agar remote check karna hai:
