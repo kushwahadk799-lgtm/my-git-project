@@ -1,0 +1,35 @@
+Bhai error simple hai 😄
+
+Tumne ye command chalayi:
+
+```powershell
+git remote -v https://github.com/kushwahadk799-lgtm/infra.git
+```
+
+`git remote -v` ke baad **URL nahi lagta**. `-v` ka kaam sirf existing remote URL dikhana hai.
+
+### Agar remote check karna hai:
+
+```powershell
+git remote -v
+```
+
+### Agar `origin` ko us GitHub repo se connect karna hai:
+
+```powershell
+git remote add origin https://github.com/kushwahadk799-lgtm/infra.git
+```
+
+Phir check:
+
+```powershell
+git remote -v
+```
+
+### Agar `origin` already bana hua hai aur URL change karna hai:
+
+```powershell
+git remote set-url origin https://github.com/kushwahadk799-lgtm/infra.git
+```
+
+**Tumhare current case mein**, agar `todo` folder ko `infra` GitHub repo se connect karna hai, mujhe bata—main **VS Code se exact step-by-step** aage karwata hoon.
